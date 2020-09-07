@@ -9,6 +9,7 @@ namespace CodedChatbot.TwitchFactories
         {
             services.AddSingleton<ITwitchApiFactory, TwitchApiFactory>();
             services.AddSingleton<ITwitchClientFactory, TwitchClientFactory>();
+            services.AddSingleton<ITwitchLiveStreamMonitorFactory, TwitchLiveStreamMonitorFactory>();
 
             return services;
         }

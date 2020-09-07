@@ -2,7 +2,7 @@
 
 namespace CodedChatbot.TwitchFactories.Interfaces
 {
-    interface ITwitchLiveStreamMonitorFactory
+    public interface ITwitchLiveStreamMonitorFactory
     {
         LiveStreamMonitorService Get();
     }
