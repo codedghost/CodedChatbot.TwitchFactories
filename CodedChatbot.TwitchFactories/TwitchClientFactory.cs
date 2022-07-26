@@ -30,7 +30,7 @@ namespace CodedChatbot.TwitchFactories
             return _client;
         }
 
-        private void Reconnect()
+        public void Reconnect()
         {
             var creds = new ConnectionCredentials(
                 _configService.Get<string>("ChatbotNick"),
