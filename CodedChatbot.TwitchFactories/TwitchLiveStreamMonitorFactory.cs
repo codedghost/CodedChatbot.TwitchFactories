@@ -23,7 +23,7 @@ namespace CodedChatbot.TwitchFactories
             return _monitorService;
         }
 
-        private void Reconnect()
+        public void Reconnect()
         {
             var api = _twitchApiFactory.Get();
             
